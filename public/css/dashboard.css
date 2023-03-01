@@ -1,0 +1,141 @@
+@media only screen and (max-width:800px){
+        
+       
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width:100%;
+    }
+    .table tr{
+        margin-bottom: 15px;
+    }
+    .table tbody tr td{
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+        border: 1px solid  #e6e6e6;
+    }
+    .table td:before{
+        content: attr(data-title);
+        position: absolute;
+        text-align: left;
+        left: 10px;
+    }
+
+}
+
+.button-solid{
+    display: inline-block;
+    color: #ffffff;
+    background: #009900;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button-solid:hover{
+    background: #008000;
+    color: white;
+    box-shadow: 0 0 15px rgba(117, 117, 117, 0.719);
+    text-align: center;
+}
+
+.bg-green{
+    background: #009900;
+    color: #ffffff;
+}
+
+.text-green{
+    color: #009900;
+}
+
+.layout-fixed.sidebar-collapse .hide-on-collapse {
+    display: none;
+  }
+  
+  .layout-fixed.sidebar-collapse:hover .hide-on-collapse {
+    display: block;
+  }
+  
+  .layout-fixed.text-sm .main-sidebar-custom .sidebar {
+    height: calc(100% - ((2.93725rem + 3.8rem) + 1px));
+  }
+  
+  .layout-fixed.text-sm .main-sidebar-custom .sidebar-custom {
+    height: 3.8rem;
+    padding: 0.85rem 0.5rem;
+  }
+  
+  .layout-fixed .main-sidebar-custom {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: -ms-stretch;
+    height: stretch;
+  }
+  
+  .layout-fixed .main-sidebar-custom .sidebar {
+    height: calc(100% - ((3.5rem + 4rem) + 1px));
+  }
+  
+  .layout-fixed .main-sidebar-custom .sidebar-custom {
+    height: 4rem;
+    padding: 0.85rem 0.5rem;
+  }
+  
+  .layout-fixed .main-sidebar-custom-lg .sidebar {
+    height: calc(100% - ((3.5rem + 6rem) + 1px));
+  }
+  
+  .layout-fixed .main-sidebar-custom-lg .sidebar-custom {
+    height: 6rem;
+  }
+  
+  .layout-fixed .main-sidebar-custom-xl .sidebar {
+    height: calc(100% - ((3.5rem + 8rem) + 1px));
+  }
+  
+  .layout-fixed .main-sidebar-custom-xl .sidebar-custom {
+    height: 8rem;
+  }
+  
+  .layout-fixed .main-sidebar-custom .pos-right,
+  .layout-fixed .main-sidebar-custom-lg .pos-right,
+  .layout-fixed .main-sidebar-custom-xl .pos-right {
+    position: absolute;
+    right: .5rem;
+  }
+
+  .bg-header{
+    background-color: #009900;
+    background-size: cover;
+    height: 250px;
+  }
+  
+  .box-image{
+    width: 100%;
+    height: 70%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.box-image  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  .box-image2{
+    width: 100%;
+    height: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.box-image2  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

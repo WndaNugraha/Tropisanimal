@@ -1,0 +1,165 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-a{
+    background-color: #00a300 !important;
+}
+
+@media only screen and(max-width:600px){
+    .navbar-collapse{
+        background-color: #009900 !important;
+    }
+}
+
+.bg-t{
+    background-color: #00000000;
+}
+
+h1 {
+    font-family: Arial Black;
+}
+
+.images2{
+    height: 400px;
+}
+
+.col-up{
+    transform: translate(0px,0px);
+}
+.col-up:hover{
+    transform: translate(0px,-15px);
+    transition: all 0.5s ease;
+}
+
+.card-show{
+    color: #000000;
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-show:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.295);
+    background: #009900;
+    text-align: center;
+}
+
+
+
+.card-show:active{
+
+    transform: scale(0.95, 0.95);
+    transition: 0.5s ;
+}
+
+
+
+.bg-green{
+    background: #009900;
+    color: #ffffff;
+}
+
+.text-green{
+    color: #009900;
+}
+
+.show-img{
+    overflow: hidden;
+}
+
+.show-img img{
+    transform: scale(1);
+    transition: all 0.3s ease-in;
+}
+
+.show-img:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-out ;
+}
+
+.over{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000cc;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 5s ease-out;
+    display: none;
+
+}
+
+
+.over  img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    object-fit: cover;
+
+}
+
+@media (max-width:888px){
+    .over img{
+        width: 95%;
+    }
+}
+
+.over span{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    color: #009900;
+    box-shadow: 0 0  15px #4e4e4e80;
+}
+
+.box-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box-image  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-box{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box-box  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.link{
+    color: #ffffff;
+}
+.link:hover{
+    color: #009900;
+}
+.active{
+    border-bottom: 2px solid #009900;
+    width: 100%;
+    color: #009900;
+}
+
